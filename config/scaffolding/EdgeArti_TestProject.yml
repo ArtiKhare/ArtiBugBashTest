@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  scaffold: EdgeArti_TestProject
+  model: int-scaffold
+services:
+- serviceName: edge.arti_testproject.javaservices.Default:test2
+  packages:
+  - name: EdgeArti_TestProject
+    version: "1.0"
