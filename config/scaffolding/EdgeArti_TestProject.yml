@@ -1,9 +1,13 @@
 version: "1.0"
 info:
-  scaffold: EdgeArti_TestProject
+  scaffold: Arti_FlowService_Test
   model: int-scaffold
 services:
-- serviceName: edge.arti_testproject.javaservices.Default:test2
+- serviceName: edge.arti_testproject.integrations:Arti_FlowService_Test
   packages:
   - name: EdgeArti_TestProject
     version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.244
